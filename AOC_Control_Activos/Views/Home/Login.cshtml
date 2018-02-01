@@ -1,9 +1,6 @@
 ﻿
 @{
-    Layout = "~/Views/Shared/_LayoutDashAdmin" +
-                "" +
-                "" +
-                ".cshtml";
+    Layout = null;
 }
 
 <!DOCTYPE html>
@@ -44,9 +41,9 @@
                     <h1>Control de Activos</h1>
                 </div>
                 <div style="height:100%;width:100%;color:black;text-align:center;">
-                    <form action="/Login" method="post">
+                    <form action="/Home/Login" method="post">
                         <input type="text" name="correo" class="form-control logRegControl" placeholder="Correo Electronico" />
-                        <input type="text" name="contrasenia" class="form-control logRegControl" placeholder="Contrasena" />
+                        <input type="password" name="contrasenia" class="form-control logRegControl" placeholder="Contrasena" />
                         <input type="submit" name="register" value="Entrar" class="form-control logRegControl">
                     </form>
                 </div>

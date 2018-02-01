@@ -80,5 +80,11 @@ namespace AOC_Control_Activos.Controllers
             }
         }
 
+        public ActionResult Logout()
+        {
+            Session["empleado"] = null;
+            return RedirectToAction("Index");
+        }
+
     }
 }

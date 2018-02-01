@@ -1,6 +1,7 @@
-﻿
+﻿@using AOC_Control_Activos.Models
 @{
     Layout = "~/Views/Shared/_LayoutDash.cshtml";
+    Empleado empleado = Session["empleado"] as Empleado;
 }
 
-<p>Bienvenido</p>
+<h4>Bienvenido @empleado.nombre ( @empleado.correo )</h4>
