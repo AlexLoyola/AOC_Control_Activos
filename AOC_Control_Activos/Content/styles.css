@@ -1,0 +1,333 @@
+.beigeColor{
+	background-color: rgb(234, 217, 174);
+}
+.greenColor{
+	background-color: rgb(17, 83, 88);
+	color:white;
+}
+.grayColor{
+	background-color: rgb(58, 58, 58);	
+	color:white;
+}
+.blueColor{
+	background-color: rgb(40, 101, 125);	
+	color:white;
+}
+.stillBg{
+	position: fixed;
+	width:100%;
+	height:200vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	left: 0;
+	top: 0;
+}
+@media only screen and (max-width: 767px) {
+    .rootContainer {
+        margin-top: 13vh;
+    }
+    .contenidoContainer{
+    }
+    .sideMenuContainer{
+    	width:125vh;
+    	height: 13vh;
+    }
+    .aocHide{
+    	display: none;
+    }
+    .sideMenu{
+    	padding: 15px;
+    }
+    .aocLogo{
+    	width:100px;
+    }
+    .rutaSelect{
+    	width:100%;
+    }
+    ul.changeDisplay{
+    	display: inline-block;
+    }
+    li.changeDisplay{
+    	display: inline-block;
+    	padding: 0px 10px 0px 10px;
+    }
+    .registerContainer p{
+	margin-top: 8px;
+	}
+	.registerContainer select{
+		margin-left:0%;
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.rootContainer {
+        width: 100%;
+        margin-top: 0%
+    }
+    .contenidoContainer{
+    	padding-left: 220px;
+    }
+    .sideMenuContainer{
+    	width:220px;
+    	height: 100vh;
+    }
+    .sideMenu{
+    	padding: 24px;
+    }
+    .aocLogo{
+    	width:170px;
+    }
+    .rutaSelect{
+    	width:40%;
+    }
+    ul.changeDisplay{
+    	display: block;
+    }
+    li.changeDisplay{
+    	display: block;
+    	padding: 10px 0px 10px 0px;
+    }
+    .registerContainer p{
+	position:absolute;
+	margin-top: 8px;
+	text-align: right;
+	width: 6%
+	}
+	.registerContainer select{
+		margin-left:20%;
+		width: 80%;
+	}
+
+}
+
+
+
+table + h5{
+	margin-top: -30px;
+}
+
+.contenidoContainer .navbar{
+	margin-right: -30px;
+}
+table{
+	margin-bottom: 5%;
+	background-color: white;
+	color: black;
+}
+a{
+	cursor: pointer;
+}
+.glyphicon-ice-lolly{
+	-webkit-transform:rotate(-180deg);
+	-moz-transform:rotate(-180deg);
+	-o-transform:rotate(-180deg);
+	transform:rotate(-180deg);
+	ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+	display: inline-block;
+	font-size: 20px;
+}
+.scaleVert{
+  	transform: scale(1, 1.8);
+  	margin-right: 20px;
+  	display: inline-block;
+}
+.scaleVert + h1{
+	display: inline-block;
+}
+.glyphicon-minus{
+	font-size: 3.9em;
+}
+.glyphicon-road{
+  	margin-right: 20px;
+}
+.glyphicon-hourglass{
+  	margin-right: 20px;
+}
+.glyphicon-ok-circle{
+	color:green;
+}
+.glyphicon-remove-circle{
+	color:red;
+}
+.glyphicon-warning-sign{
+	color:rgba(255, 175, 80, 1);
+}
+.glyphicon-user{
+	margin-right: 20px;
+	display: inline-block;
+}
+.sideMenuContainer{
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:100;
+	background-color: rgba(0,0,0,.5);
+}
+.sideMenuExpand ul{
+	list-style-type: none;
+	padding: 3px;
+	font-size: 1.1em;
+	line-height: 3em;
+}
+.sideMenuExpand ul li{
+	font-weight: 600;
+	font-size: 1.1em;
+	text-align: center;
+	border-radius: 10px
+}
+
+.sideMenuExpand h1{
+	margin-top: 0px;
+	text-align: center;
+}
+
+.sideMenuExpand ul li:hover{
+	background-color: rgb(17, 83, 88);
+	border-radius: 10px;
+	cursor: pointer;
+}
+.contenidoContainer{
+	position: relative;
+}
+.panelContainer{
+	padding: 0px 50px 50px 50px;
+}
+input,button{
+	color:black;
+}
+.logRegControl{
+	width:80%;
+	margin:auto;
+	margin-bottom: 10px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0,0,0,0.1);
+    color:black;
+}
+tr:hover{
+	background-color: rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+tr:first-child:hover{
+	background-color: rgba(0,0,0,0.0);
+	cursor: pointer;
+}
+
+@keyframes example {
+    0%   {transform: rotate(-20deg);}
+    100% {transform: rotate(0deg);}
+}
+.redThing{
+    animation-name: example;
+    animation-duration: 4s;
+    -webkit-transition: all 600ms cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  transition:         all 600ms cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+.embarqueContainer, .cilindroContainer, .busquedaContainer{
+	background-color: rgba(1,1,1,.2);
+	padding: 5px;
+	border-radius: 10px;
+	border-color: black;
+	border-style: solid;
+	border-width:0px;
+	border-bottom-width: 5px;
+	border-right-width: 2px;
+}
+.busquedaContainer{
+	margin-bottom: 10px;
+}
+.busquedaContainer ul li a{
+	color:white;
+	background-color: rgba(255,255,255,0.1);
+}
+.embarqueContainer .embarqueContainer{ /*la seccion de cilindros sobre camion*/
+	margin: 0 10% 0 10%;
+}
+.embarqueContainer.row > h3{/*la seccion de cilindros sobre camion*/
+	margin-top: 0px;
+	margin-left: -5px;
+	margin-right: -5px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+.embarqueContainer h3{ /* todos las barras de los apartados*/
+	text-align: center;
+	background-color: rgba(255,255,255,0.1);
+	margin-bottom: 0px;
+	padding: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.embarqueContainer h4{
+	margin-left: 25px
+}
+.embarqueBar, .cilindroBar{
+	background-color: rgba(0,0,0,0.6);
+	margin: -5px;
+	margin-top: -5px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding: 10px;
+}
+.embarqueDriver, .cilinderType{
+	margin-top: 10px;
+	margin-left:10px;
+	display: inline-block;
+}
+.ecCloser{
+	float: right;
+	background-color: rgba(255,255,255,.2);
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	margin-right: 2px;
+	cursor: pointer;
+}
+.whiteCilinder{
+	position: relative;
+	display:inline-block;
+	float:left;
+	background-color: white;
+	border-radius: 100px;
+	padding: 10px;
+	color: black;
+}
+.datePicker{
+	display: inline-block;
+}
+.input-group-addon{
+	display: inline-block;
+	padding-right: 25px;
+	margin-left: -40px;
+	height: 30px;
+	background-color: rgba(0,0,0,0);
+	border-width: 0px;
+}
+#fromDateIcon,#toDateIcon{
+	cursor: pointer;
+}
+.busquedaContainer{
+	padding: 10px;
+}
+.registerContainer{
+	margin:3% 20% 3% 20%;
+}
+.registerContainer input, select{
+	margin-bottom: 4px;
+}
